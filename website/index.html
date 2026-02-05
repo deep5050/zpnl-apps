@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ZPNL | Next-Gen Network Resource Scheduler</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&family=Inter:wght@300;400;500;700&display=swap"
+        rel="stylesheet">
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+
+<body>
+    <div class="blob-bg"></div>
+    <div class="blob-bg-2"></div>
+
+    <nav class="glass-nav">
+        <div class="container nav-content">
+            <div class="logo">
+                <span class="logo-icon">
+                    <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"
+                        class="w-8 h-8 rounded shadow-sm">
+                        <rect x="2" y="3" width="20" height="5" rx="1" fill="#F97316"></rect>
+                        <rect x="2" y="9.5" width="20" height="5" rx="1" fill="#A855F7"></rect>
+                        <rect x="2" y="16" width="9" height="5" rx="1" fill="#374151"></rect>
+                        <rect x="12" y="16" width="10" height="5" rx="1" fill="#374151"></rect>
+                    </svg>
+                </span>
+                <span class="logo-text">ZPNL</span>
+            </div>
+            <div class="nav-links">
+                <a href="#features">Features</a>
+                <a href="#preview">Preview</a>
+                <a href="#about">About</a>
+                <a href="#contact" class="btn btn-primary glass-btn">Get Access</a>
+            </div>
+        </div>
+    </nav>
+
+    <header class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="animate-up">The Future of <br><span class="gradient-text">Lab Management</span></h1>
+                <p class="animate-up delay-1">Stop the chaos. Start scheduling. A lightweight, lightning-fast platform
+                    to manage and book your network resources with visual clarity.</p>
+                <div class="animate-up delay-2 privacy-tagline">
+                    <i data-lucide="shield-check"></i>
+                    <span>Locally hosted, so no data leaves your network. Suitable for small to midsized
+                        organizations</span>
+                </div>
+                <div class="hero-actions animate-up delay-3">
+                    <a href="#preview" class="btn btn-lg btn-primary">Live Demo</a>
+                    <a href="https://github.com/deep5050/ZPNL" class="btn btn-lg btn-outline">Explore Code</a>
+                </div>
+            </div>
+            <div class="hero-mockup animate-up delay-4">
+                <div class="glow-wrap">
+                    <div class="mockup-slider-container">
+                        <button class="slider-btn prev-btn" onclick="changeSlide(-1)"><i
+                                data-lucide="chevron-left"></i></button>
+                        <div class="mockup-frame slideshow-container">
+                            <div class="slides">
+                                <img src="assets/mockup1.png" alt="ZPNL App Interface 1" class="slide active">
+                                <img src="assets/mockup2.png" alt="ZPNL App Interface 2" class="slide">
+                                <img src="assets/mockup3.png" alt="ZPNL App Interface 3" class="slide">
+                                <img src="assets/mockup4.png" alt="ZPNL App Interface 4" class="slide">
+                                <img src="assets/mockup5.png" alt="ZPNL App Interface 5" class="slide">
+                            </div>
+                        </div>
+                        <button class="slider-btn next-btn" onclick="changeSlide(1)"><i
+                                data-lucide="chevron-right"></i></button>
+                    </div>
+                    <div class="slideshow-dots">
+                        <span class="dot active" onclick="currentSlide(0)"></span>
+                        <span class="dot" onclick="currentSlide(1)"></span>
+                        <span class="dot" onclick="currentSlide(2)"></span>
+                        <span class="dot" onclick="currentSlide(3)"></span>
+                        <span class="dot" onclick="currentSlide(4)"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section id="features" class="features">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="gradient-text">Engineered for Efficiency</h2>
+                <p>A suite of powerful tools designed to streamline your development and testing workflow.</p>
+            </div>
+            <div class="feature-grid">
+                <div class="feature-card glass">
+                    <div class="icon-wrap"><i data-lucide="calendar"></i></div>
+                    <h3>Visual Timeline</h3>
+                    <p>Interactive Gantt-style timeline giving you instant visibility into resource allocation over 7
+                        days.</p>
+                </div>
+                <div class="feature-card glass">
+                    <div class="icon-wrap"><i data-lucide="star"></i></div>
+                    <h3>One-Click Booking</h3>
+                    <p>Quick Book your favorite devices instantly for the remaining day. No forms, no friction.</p>
+                </div>
+                <div class="feature-card glass">
+                    <div class="icon-wrap"><i data-lucide="search"></i></div>
+                    <h3>Resource Explorer</h3>
+                    <p>Deep search capabilities across your entire lab inventory with dynamic filtering and metadata
+                        view.</p>
+                </div>
+                <div class="feature-card glass">
+                    <div class="icon-wrap"><i data-lucide="layers"></i></div>
+                    <h3>Platform Schemas</h3>
+                    <p>Fully customizable device metadata with JSON schemas. Tailored fields for every platform.</p>
+                </div>
+                <div class="feature-card glass">
+                    <div class="icon-wrap"><i data-lucide="activity"></i></div>
+                    <h3>Real-time Updates</h3>
+                    <p>Integrated lab news-feed to keep everyone informed about maintenance, new gear, and critical
+                        alerts.</p>
+                </div>
+                <div class="feature-card glass">
+                    <div class="icon-wrap"><i data-lucide="user-check"></i></div>
+                    <h3>Secure & Auth-Ready</h3>
+                    <p>Built-in JWT authentication with granular Admin and User roles for safe resource management.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="tech" class="tech-stack">
+        <div class="container">
+            <h3>Powered by a Modern Stack</h3>
+            <div class="stack-row">
+                <div class="stack-item"><img src="https://fastapi.tiangolo.com/img/logo-margin/logo-teal.png"
+                        alt="FastAPI"><span>FastAPI</span></div>
+                <div class="stack-item"><img src="https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg"
+                        alt="React"><span>React + TS</span></div>
+                <div class="stack-item sqlite-special">
+                    <div class="sqlite-icon-wrap">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/3/38/SQLite370.svg" alt="SQLite">
+                    </div>
+                    <span>SQLite</span>
+                </div>
+                <div class="stack-item"><img src="https://vitejs.dev/logo.svg" alt="Vite"><span>Vite</span></div>
+            </div>
+        </div>
+    </section>
+
+    <footer id="contact" class="glass-footer">
+        <div class="container footer-content">
+            <div class="footer-info">
+                <div class="logo">
+                    <span class="logo-icon">
+                        <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"
+                            class="w-8 h-8 rounded shadow-sm">
+                            <rect x="2" y="3" width="20" height="5" rx="1" fill="#F97316"></rect>
+                            <rect x="2" y="9.5" width="20" height="5" rx="1" fill="#A855F7"></rect>
+                            <rect x="2" y="16" width="9" height="5" rx="1" fill="#374151"></rect>
+                            <rect x="12" y="16" width="10" height="5" rx="1" fill="#374151"></rect>
+                        </svg>
+                    </span>
+                    <span class="logo-text">ZPNL</span>
+                </div>
+                <p>Zero Pain Network Lab</p>
+                <div class="socials">
+                    <a href="#"><i data-lucide="github"></i></a>
+                    <a href="#"><i data-lucide="twitter"></i></a>
+                    <a href="#"><i data-lucide="mail"></i></a>
+                </div>
+            </div>
+            <div class="footer-links">
+                <h4>Contact Support</h4>
+                <p>Dipankar Pal</p>
+                <p>Email: <a href="mailto:[dipankarpal5050@gmail.com]">dipankarpal5050@gmail.com</a></p>
+                <p>Location: Kolkata, India</p>
+            </div>
+            <div class="footer-cta">
+                <h4>Get Started Today</h4>
+                <p>Ready to deploy ZPNL in your environment?</p>
+                <a href="#" class="btn btn-primary">Deployment Guide</a>
+            </div>
+        </div>
+        <div class="copy">
+            <p>&copy; 2026 ZPNL Project. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        lucide.createIcons();
+
+        // Slideshow Logic
+        let currentSlideIndex = 0;
+        const slides = document.querySelectorAll('.slide');
+        const dots = document.querySelectorAll('.dot');
+
+        function showSlide(n) {
+            slides.forEach(slide => slide.classList.remove('active'));
+            dots.forEach(dot => dot.classList.remove('active'));
+
+            currentSlideIndex = (n + slides.length) % slides.length;
+
+            slides[currentSlideIndex].classList.add('active');
+            dots[currentSlideIndex].classList.add('active');
+        }
+
+        function changeSlide(n) {
+            showSlide(currentSlideIndex + n);
+        }
+
+        function currentSlide(n) {
+            showSlide(n);
+        }
+
+        // Auto slide
+        setInterval(() => {
+            changeSlide(1);
+        }, 5000);
+    </script>
+</body>
+
+</html>
