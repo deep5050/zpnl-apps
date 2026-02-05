@@ -2,7 +2,6 @@
 
 <div align="center">
   <img src="website/assets/mockup1.png" alt="ZPNL Dashboard Mockup" width="100%" style="border-radius: 10px; box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);">
-  
   <br />
   
   <h1>Orchestrate Your Lab Resources. <br/>Stop The Chaos.</h1>
@@ -133,6 +132,15 @@ Need custom integrations with LDAP/Active Directory or SSO?
 [Contact our Engineering Team](mailto:support@zpnl.lab) for enterprise licensing and support packages.
 
 ---
+<!-- <p>
+  <img width=50% height=50% alt="mockup3" src="https://github.com/user-attachments/assets/f1b3f86e-79aa-4050-9111-b2a0921dccf1" />
+ <img width=50% height=50% alt="mockup2" src="https://github.com/user-attachments/assets/224cb60f-4c99-49b8-b33a-2beb160b1956" />
+</p>
+<p>
+<img width=50% height=50% alt="mockup4" src="https://github.com/user-attachments/assets/116cf7b0-9c22-4953-b905-7c6656d08038" />
+<img width=50% height=50% alt="mockup5" src="https://github.com/user-attachments/assets/51e2b9a2-917b-4ceb-a344-80d4e73d3dc7" />
+
+</p> -->
 
 <div align="center">
   <small>© 2026 ZPNL Project. Built for Engineers, by Engineers.</small>
