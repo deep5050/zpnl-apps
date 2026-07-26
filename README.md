@@ -14,7 +14,7 @@
   <p>
     <a href="#deployment"><strong>Deploy Now</strong></a> · 
     <a href="#features"><strong>Explore Features</strong></a> · 
-    <a href="index.html"><strong>View Demo Site</strong></a>
+    <a href="https://zpnl-demo.vercel.app/" target="_blank" rel="noopener noreferrer"><strong>View Live Demo</strong></a>
   </p>
 </div>
 
